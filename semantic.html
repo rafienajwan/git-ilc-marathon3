@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Register</title>
+    <style>
+        /* Style untuk tampilan saat mouse hover */
+        a:hover {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Halaman Register</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Registrasi</a></li>
+            <li><a href="#">Tentang Kami</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h2>Form Registrasi</h2>
+            <form action="">
+                <label for="email">Email : </label>
+                <input type="email" name="Email" id="email" placeholder="address@gmail.com" required>
+                <br><br>
+                <label for="password">Password : </label>
+                <input type="password" name="Password" id="password" placeholder="password" required>
+                <br><br>
+                <label for="fotoprofil">Foto Profil : </label>
+                <input type="file" name="FotoProfil" id="fotoprofil" required>
+                <br><br>
+                <label for="tanggallahir">Tanggal Lahir : </label>
+                <input type="date" name="TanggalLahir" id="tanggallahir" required>
+                <br><br>
+                <label for="gender">Gender : </label>
+                <select name="Gender" id="gender">
+                    <option value="g1">Male</option>
+                    <option value="g2">Female</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </article>
+        
+        <section>
+            <h2>Artikel Terbaru</h2>
+            <article>
+                <h3>Judul Artikel 1</h3>
+                <p>Isi artikel 1...</p>
+            </article>
+            <article>
+                <h3>Judul Artikel 2</h3>
+                <p>Isi artikel 2...</p>
+            </article>
+        </section>
+        
+        <img src="gambar1.jpg" alt="Gambar 1">
+        <img src="gambar2.jpg" alt="Gambar 2">
+    </main>
+    
+    <aside>
+        <h2>Baris Samping</h2>
+        <p>Isi baris samping...</p>
+    </aside>
+    
+    <footer>
+        <p>Hak Cipta &copy; 2023 Nama Anda</p>
+    </footer>
+</body>
+</html>
